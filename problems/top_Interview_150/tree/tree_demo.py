@@ -16,6 +16,7 @@ class TreeNode:
             else:
                 self.right.insert(value)
 
+    # search
     def search(self, value):
         if value == self.value:
             return True
